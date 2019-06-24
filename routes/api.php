@@ -18,5 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/login', function(){
-    return ['session' => 'ok'];
+    return ['status' => 'true',
+            'security_token' => md5('12354')];
 }); 

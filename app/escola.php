@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class escola extends Model
 {
-    protected $fillable = ['id','logo','website','none','cnpj','logradouro','cidade','uf','bairro','numero','telefone','email','responsavel'];
+    protected $fillable = ['id','logo','website','nome','cnpj','logradouro','cidade','uf','bairro','numero','telefone','email','responsavel'];
 
     protected $dates = ['deleted_at'];
 

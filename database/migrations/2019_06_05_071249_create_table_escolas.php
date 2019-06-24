@@ -17,7 +17,7 @@ class CreateTableEscolas extends Migration
             $table->bigIncrements('id');
             $table->string('logo',255);
             $table->string('website',255);
-            $table->string('none',55);
+            $table->string('nome',55);
             $table->string('cnpj',15)->unique();
             $table->string('logradouro',200);
             $table->string('cidade',55);
